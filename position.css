@@ -1,0 +1,31 @@
+body{
+    background-color: blanchedalmond;
+}
+.mama{
+    height: 300dvh;
+   
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+}
+.dan{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(226, 6, 134);
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+.sit{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(221, 240, 15);
+    position: sticky ;
+    top: 20px;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}

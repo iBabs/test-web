@@ -1,0 +1,43 @@
+.pikin{
+    border: solid 2px black;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: justify;
+}
+body{
+    padding: 2rem;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.one{
+    background-color: aqua;
+    grid-column: span 2;
+}
+.two{
+    background-color: rgb(9, 103, 103);
+}
+.three{
+    background-color: rgb(162, 242, 14);
+}
+.four{
+    background-color: rgb(255, 0, 89);
+}
+.five{
+    grid-row: 2;
+    background-color: bisque;
+}
+.six{
+    background-color: rgb(154, 13, 186);
+    /* grid-column: span 2; */
+}
+.seven{
+    background-color: rgb(243, 136, 6);
+    grid-column: span 2;
+}
+.eight{
+    background-color: rgb(8, 192, 42);
+}
